@@ -1,9 +1,9 @@
-# Gates-using-Neural-Nets-and-Linear-Threshold-gates
+# Gates-using-Neural-Nets-and-Perceptrons
 A Simple model to implement Gates using :
 
 1. A Multi-layered Neural Network
 
-2. A Linear Threshold gate
+2. A Linear Threshold gate (Perceptron)
 
 Required Modules:
 
