@@ -1,19 +1,19 @@
-# Gates-using-Neural-Nets-and-Perceptrons
-A Simple model to implement Gates using :
+# It is a Neural Network designed framework from scratch in python (incomplete)
 
-1. Multi-layered Neural Networks
+Contains modules supporting models like:
 
-2. Linear Threshold gates (Perceptron)
+1. Perceptrons
+
+2. Deep Neural Network (work in progress)
+
+3. Convolutional Neural Networks (work in progress)
+
 
 Required Modules:
 
- 1. tensorflow(CPU or GPU)
+ 1. numpy
 
- 2. keras(CPU or GPU)
+ 2. matplotlib
 
- 3. sklearn
-
- 4. numpy
-
- 5. pandas
+ 3. pandas
 
