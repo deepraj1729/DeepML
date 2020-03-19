@@ -1,4 +1,4 @@
-# It is a Neural Network designed framework from scratch in python (incomplete)
+# It is a Neural Network designed framework from scratch in python 
 
 Contains modules supporting models like:
 
