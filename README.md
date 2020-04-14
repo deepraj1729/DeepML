@@ -1,4 +1,4 @@
-# It is a Neural Network designed modular framework from scratch in python 
+# DeepNet is a Neural Network modular framework from scratch in python 
 
 Contains modules supporting models like:
 
