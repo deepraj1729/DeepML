@@ -32,7 +32,6 @@ class Perceptron():
                 point = data_X[ri]
                 z = point[0] * self.w1 + point[1] * self.w2 + self.b
                 
-                # pred = self.sigmoid(z)
                 pred = sigmoid(z)
                 target = data_Y[ri]
 
@@ -47,7 +46,6 @@ class Perceptron():
                 self.counter.append(i)
 
                 dcost_dpred = 2*(pred-target)
-                # dpred_dz = self.sigmoid_p(z)
                 dpred_dz = sigmoid_p(z)
                 
                 dz_dw1 = point[0]
@@ -69,7 +67,6 @@ class Perceptron():
         try:
             print("\n\n-----------------------Output--------------------")
             for i in range(len(x)):
-                # conf = self.sigmoid(self.w1*x[i][0] + self.w2 *x[i][1] + self.b) 
                 conf = sigmoid(self.w1*x[i][0] + self.w2 *x[i][1] + self.b) 
                 val = self.check_acc(conf)
                 if val == self.label[0]:
