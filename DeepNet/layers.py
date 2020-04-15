@@ -1,9 +1,8 @@
-def Dense(input_shape =2 ):
-    print("\n\nDense function called")
-    print("Layers = {}".format(input_shape))
+def Dense(input_layers =4):
+    pass
 
-def Flatten(input_shape=2):
+def Flatten():
     pass
 
 def Input(input_shape):
-    return 9
+    pass
