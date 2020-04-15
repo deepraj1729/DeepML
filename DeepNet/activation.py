@@ -9,7 +9,10 @@ def binaryStep(x):
 def sigmoid(x):
     return 1/(1+np.exp(-x))
 
-def relu(x):                    # rectified linear unit
+def sigmoid_p(x):                      # sigmoid prime
+    return sigmoid(x)*(1-sigmoid(x))
+
+def relu(x):                           # rectified linear unit
     if x>0:
         return x
     else:
@@ -25,7 +28,7 @@ def tanh(x):
     return (2/(1 + np.exp(-2*x))) -1
 
 
-def elu(x, a):                  # exponential linear unit
+def elu(x, a):                          # exponential linear unit
     if x<0:
         return a*(np.exp(x)-1)
     else:
