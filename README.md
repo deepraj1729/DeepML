@@ -6,7 +6,7 @@ DeepML is a Deep Learning Library that includes some of the significant Deep Lea
 2. Data Preprocessing Functions
 3. Data Visualization functions
 
-## 1. Models in ML and Deep Learning:
+## 1. Models in Deep Learning:
 
 a. Supervised Learning:
 
