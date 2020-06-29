@@ -9,6 +9,7 @@ DeepML is a Deep Learning Library that includes some of the significant Deep Lea
 ## 1. Models in ML and Deep Learning:
 
 a. Supervised Learning:
+
     - Deep Classifiers
         i.   Perceptron (Single Layered Neural Networks)
         ii.  Deep Neural Networks (Multi-layered Artificial Neural Network)
@@ -26,7 +27,8 @@ b. Unsupervised Learning:
         iii. Gaussian Mixture Models
         iv.  Genetic Algorithms
     
-c. Reinforcement Learning
+c. Reinforcement Learning:
+
         i.    Q-Learning 
         ii.   Deep Q-Network (DQN)
         iii.  State–action–reward–state–action (SARSA)
