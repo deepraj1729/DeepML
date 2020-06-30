@@ -1,14 +1,8 @@
-# Perceptron Network
-#
-#      O     Flower Type(0-Blue,1-Red)
-#    /   \        w1,w2,b
-#   O     O   Inputs (length,width)
-
 import numpy as np
 import pandas as pd
-from DeepNet.models import Perceptron
+from DeepML.classifiers.models import Perceptron
 
-data = pd.read_csv('Datasets/flower.csv')
+data = pd.read_csv('datasets/iris.csv')
 
 X = np.array(data.drop(['Sl no.','flower label'],1))
 y = np.array(data['flower label'])

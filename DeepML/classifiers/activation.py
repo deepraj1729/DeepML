@@ -33,4 +33,3 @@ def elu(x, a):                          # exponential linear unit
         return a*(np.exp(x)-1)
     else:
         return x
-

@@ -1,11 +1,11 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from DeepNet.layers import Dense,Input,Flatten
-from DeepNet.activation import sigmoid,sigmoid_p,softmax,relu
+from DeepML.classifiers.layers import Dense,Input,Flatten
+from DeepML.classifiers.activation import sigmoid,sigmoid_p,softmax,relu
 
 class Perceptron():
     def __init__(self):
-        print("\nDeepNet is initialized....\n")
+        print("\nPerceptron model initialized....\n")
         print("Initializing weights and biases")
         self.w1 = np.random.randn()
         self.w2 = np.random.randn()
@@ -88,4 +88,3 @@ class Perceptron():
             print("Oops something went wrong...\nCheck if matplotlib is installed or not")
 
         
-
